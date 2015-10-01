@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>CPTT.BusinessFacade</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CPTT.BusinessFacade</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CPTT.BusinessRule\CPTT.BusinessRule.csproj">
+      <Name>CPTT.BusinessRule</Name>
+      <Project>{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\CPTT.DataAccess\CPTT.DataAccess.csproj">
+      <Name>CPTT.DataAccess</Name>
+      <Project>{77510FC5-5119-455C-A421-AC6458C7D9DC}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\CPTT.SystemFramework\CPTT.SystemFramework.csproj">
+      <Name>CPTT.SystemFramework</Name>
+      <Project>{6B451569-936E-4078-8F1C-81E63FF3AE07}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CPTT.WinUI\Libraries\DevExpress.Data.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CPTT.WinUI\Libraries\DevExpress.Utils.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CPTT.WinUI\Libraries\DevExpress.XtraEditors.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RexDataProtector">
+      <Name>RexDataProtector</Name>
+      <HintPath>..\CPTT.WinUI\bin\Debug\RexDataProtector.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CameraSystem.cs" />
+    <Compile Include="CardInfoSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DutySystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FinanInfoSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FinanMgmtInfoPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlowStateSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FoodManagementPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FoodManagementSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GardenInfoSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetStuInfoByCondition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GradeSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HardWareAuthentication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HealthManagementPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HealthManagementSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MachineSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorningCheckInfoSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OptionSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrepareForStuCheckInfoSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealtimeInfoPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealtimeInfoStat_TeacherPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealtimeInfoStat_TeacherSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealtimeSumInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RolesSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SMSInfoSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StuAttendCalc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StuBaseInfoPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StudentCheckInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StuMorningCheckInfoPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StuValidationCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StuVisitInfoPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StuVisitInfoSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TeaBaseInfoPrintSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TeacherBaseSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TeacherCheckInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TransactionSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UtilSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

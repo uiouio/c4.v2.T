@@ -1,0 +1,248 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{04134218-2879-44F1-94FF-FF69404F9CB8}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CPTTProTest"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = "copy $(ProjectDir)*.config $(TargetDir)"
+                RootNamespace = "CPTTProTest"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "CPTT.BusinessFacade"
+                    Project = "{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "CPTT.SystemFramework"
+                    Project = "{6B451569-936E-4078-8F1C-81E63FF3AE07}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Configuration"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Configuration"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Common"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Common"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll"
+                />
+                <Reference
+                    Name = "CTRLSERIALLib"
+                    Guid = "{232177BC-162E-471B-A1F7-07056652B0E9}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "DevExpress.XtraTreeList3"
+                    AssemblyName = "DevExpress.XtraTreeList3"
+                    HintPath = "..\..\component\devexpress\DevExpress.XtraTreeList3.dll"
+                />
+                <Reference
+                    Name = "DevExpress.Data3"
+                    AssemblyName = "DevExpress.Data3"
+                    HintPath = "..\..\component\devexpress\DevExpress.Data3.dll"
+                />
+                <Reference
+                    Name = "DevExpress.Utils3"
+                    AssemblyName = "DevExpress.Utils3"
+                    HintPath = "..\..\component\devexpress\DevExpress.Utils3.dll"
+                />
+                <Reference
+                    Name = "DevExpress.XtraBars3"
+                    AssemblyName = "DevExpress.XtraBars3"
+                    HintPath = "..\..\component\devexpress\DevExpress.XtraBars3.dll"
+                />
+                <Reference
+                    Name = "DevExpress.XtraEditors3"
+                    AssemblyName = "DevExpress.XtraEditors3"
+                    HintPath = "..\..\component\devexpress\DevExpress.XtraEditors3.dll"
+                />
+                <Reference
+                    Name = "DevExpress.XtraGrid3"
+                    AssemblyName = "DevExpress.XtraGrid3"
+                    HintPath = "..\..\component\devexpress\DevExpress.XtraGrid3.dll"
+                />
+                <Reference
+                    Name = "DevExpress.XtraNavBar3"
+                    AssemblyName = "DevExpress.XtraNavBar3"
+                    HintPath = "..\..\component\devexpress\DevExpress.XtraNavBar3.dll"
+                />
+                <Reference
+                    Name = "DevExpress.XtraPrinting3"
+                    AssemblyName = "DevExpress.XtraPrinting3"
+                    HintPath = "..\..\component\devexpress\DevExpress.XtraPrinting3.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSet1.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSet1.cs"
+                />
+                <File
+                    RelPath = "DataSet1.cs"
+                    DependentUpon = "DataSet1.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Form1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.resx"
+                    DependentUpon = "Form1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Form2.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form2.resx"
+                    DependentUpon = "Form2.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "print.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "testEvent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "XtraForm1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "XtraForm1.resx"
+                    DependentUpon = "XtraForm1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

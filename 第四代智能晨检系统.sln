@@ -1,0 +1,116 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTT.WinUI", "CPTT.WinUI\CPTT.WinUI.csproj", "{85689448-7F3B-49D7-830B-18025C29BAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTT.Uninstaller", "CPTT.Uninstaller\CPTT.Uninstaller.csproj", "{C030CB0A-C3D3-4EB9-97A7-CB835705A346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTT.BusinessFacade", "CPTT.BusinessFacade\CPTT.BusinessFacade.csproj", "{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTT.BusinessRule", "CPTT.BusinessRule\CPTT.BusinessRule.csproj", "{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTT.DataAccess", "CPTT.DataAccess\CPTT.DataAccess.csproj", "{77510FC5-5119-455C-A421-AC6458C7D9DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTT.SystemFramework", "CPTT.SystemFramework\CPTT.SystemFramework.csproj", "{6B451569-936E-4078-8F1C-81E63FF3AE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTTAutoService", "CPTTAutoService\CPTTAutoService.csproj", "{FC7F4BF8-D285-4973-A3B7-FC86D96202B8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CPTTSetup", "CPTTSetup\CPTTSetup.vdproj", "{55713200-7DCA-40F5-8EF2-58CD859244AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59003A7E-7315-4FB7-9635-AC5E04485BB4}"
+	ProjectSection(SolutionItems) = preProject
+		CPTT.WinUI\customizesettings.config = CPTT.WinUI\customizesettings.config
+		CPTT.WinUI\dataconfiguration.config = CPTT.WinUI\dataconfiguration.config
+		CPTT.WinUI\loggingconfiguration.config = CPTT.WinUI\loggingconfiguration.config
+		CPTT.WinUI\loggingdistributorconfiguration.config = CPTT.WinUI\loggingdistributorconfiguration.config
+		CPTT.WinUI\securityconfiguration.config = CPTT.WinUI\securityconfiguration.config
+		CPTT.WinUI\securitycryptographyconfiguration.config = CPTT.WinUI\securitycryptographyconfiguration.config
+		CPTT.WinUI\userstyleprofile.config = CPTT.WinUI\userstyleprofile.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{47297971-562F-4051-9EDE-50EF82C699B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraLib", "Lib\CameraLib\CameraLib.csproj", "{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraLib2", "CameraLib2\CameraLib2.csproj", "{4728123D-F62E-4F37-A0DD-1E5B561597E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Debug|x86.ActiveCfg = Debug|x86
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Debug|x86.Build.0 = Debug|x86
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Release|x86.ActiveCfg = Release|x86
+		{85689448-7F3B-49D7-830B-18025C29BAC7}.Release|x86.Build.0 = Release|x86
+		{C030CB0A-C3D3-4EB9-97A7-CB835705A346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C030CB0A-C3D3-4EB9-97A7-CB835705A346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C030CB0A-C3D3-4EB9-97A7-CB835705A346}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C030CB0A-C3D3-4EB9-97A7-CB835705A346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C030CB0A-C3D3-4EB9-97A7-CB835705A346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C030CB0A-C3D3-4EB9-97A7-CB835705A346}.Release|x86.ActiveCfg = Release|Any CPU
+		{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67255B9-9C09-4B84-B6E6-772B6B6F22C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99630CDB-9A27-429B-86FC-D5DEFBBD0CA0}.Release|x86.ActiveCfg = Release|Any CPU
+		{77510FC5-5119-455C-A421-AC6458C7D9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77510FC5-5119-455C-A421-AC6458C7D9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77510FC5-5119-455C-A421-AC6458C7D9DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{77510FC5-5119-455C-A421-AC6458C7D9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77510FC5-5119-455C-A421-AC6458C7D9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77510FC5-5119-455C-A421-AC6458C7D9DC}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B451569-936E-4078-8F1C-81E63FF3AE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B451569-936E-4078-8F1C-81E63FF3AE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B451569-936E-4078-8F1C-81E63FF3AE07}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B451569-936E-4078-8F1C-81E63FF3AE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B451569-936E-4078-8F1C-81E63FF3AE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B451569-936E-4078-8F1C-81E63FF3AE07}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC7F4BF8-D285-4973-A3B7-FC86D96202B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7F4BF8-D285-4973-A3B7-FC86D96202B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7F4BF8-D285-4973-A3B7-FC86D96202B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC7F4BF8-D285-4973-A3B7-FC86D96202B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7F4BF8-D285-4973-A3B7-FC86D96202B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7F4BF8-D285-4973-A3B7-FC86D96202B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Debug|Any CPU.ActiveCfg = Debug
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Debug|Any CPU.Build.0 = Debug
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Debug|x86.ActiveCfg = Debug
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Debug|x86.Build.0 = Debug
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Release|Any CPU.ActiveCfg = Release
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Release|Any CPU.Build.0 = Release
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Release|x86.ActiveCfg = Release
+		{55713200-7DCA-40F5-8EF2-58CD859244AC}.Release|x86.Build.0 = Release
+		{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{4728123D-F62E-4F37-A0DD-1E5B561597E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4728123D-F62E-4F37-A0DD-1E5B561597E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4728123D-F62E-4F37-A0DD-1E5B561597E5}.Debug|x86.ActiveCfg = Debug|x86
+		{4728123D-F62E-4F37-A0DD-1E5B561597E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4728123D-F62E-4F37-A0DD-1E5B561597E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4728123D-F62E-4F37-A0DD-1E5B561597E5}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5D3BAAA-D316-4AD4-8FD9-F7E90F6432CF} = {47297971-562F-4051-9EDE-50EF82C699B2}
+		{4728123D-F62E-4F37-A0DD-1E5B561597E5} = {47297971-562F-4051-9EDE-50EF82C699B2}
+	EndGlobalSection
+EndGlobal
